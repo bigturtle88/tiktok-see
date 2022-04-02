@@ -1,0 +1,31 @@
+{
+  "name": "ttv",
+  "version": "1.0.0",
+  "description": "TikTok see",
+  "main": "app",
+  "dependencies": {
+    "lowdb": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.7",
+    "puppeteer": "^13.1.3",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  },
+  "scripts": {
+    "see": "node see.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigturtle88/tiktok-see.git"
+  },
+  "author": "Vyacheslav B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigturtle88/tiktok-see/issues"
+  },
+  "homepage": "https://github.com/bigturtle88/tiktok-see#readme"
+}
